@@ -1,0 +1,19 @@
+# Single-broker Redpanda for the capstone pipeline.
+name: capstone-redpanda
+
+services:
+  redpanda:
+    image: redpandadata/redpanda:v24.2.7
+    container_name: capstone-redpanda
+    command:
+      - redpanda
+      - start
+      - --mode=dev-container
+      - --smp=1
+      - --memory=1200M
+      - --reserve-memory=0M
+      - --default-log-level=warn
+      - --kafka-addr=internal://0.0.0.0:9092,external://0.0.0.0:19092
+      - --advertise-kafka-addr=internal://redpanda:9092,external://localhost:19092
+    ports:
+      - "19092:19092"

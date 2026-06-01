@@ -1,0 +1,62 @@
+{
+  "processed": 3000,
+  "languages": {
+    "en": 2963,
+    "sw": 7,
+    "nl": 7,
+    "it": 7,
+    "hi": 6,
+    "ur": 3,
+    "pt": 3,
+    "tr": 2,
+    "de": 1,
+    "pl": 1
+  },
+  "sentiment": {
+    "Negative": 1980,
+    "Positive": 1020
+  },
+  "top_keywords": [
+    [
+      "philosophy",
+      21
+    ],
+    [
+      "reddit",
+      14
+    ],
+    [
+      "debt",
+      14
+    ],
+    [
+      "thanks",
+      14
+    ],
+    [
+      "socialism",
+      13
+    ],
+    [
+      "starbucks",
+      10
+    ],
+    [
+      "just",
+      9
+    ],
+    [
+      "interesting",
+      9
+    ],
+    [
+      "books",
+      9
+    ],
+    [
+      "book",
+      9
+    ]
+  ],
+  "final": true
+}

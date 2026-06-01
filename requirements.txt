@@ -1,0 +1,7 @@
+confluent-kafka>=2.5
+transformers>=4.44
+torch>=2.2
+keybert>=0.8
+sentence-transformers>=3.0
+datasets>=2.20
+matplotlib>=3.8

@@ -1,0 +1,4 @@
+repo=HuggingFaceGECLM/REDDIT_comments
+config=programming,science,history,books,personalfinance,gaming,travel,philosophy,technology,Fitness,askscience,todayilearned,explainlikeimfive,DIY,space
+text_field=body
+url=https://huggingface.co/datasets/HuggingFaceGECLM/REDDIT_comments

@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw dataset: reproduced by scripts/fetch_dataset.py, linked in the README.
+data/comments.jsonl
+data/.stats_done
+
+# Model cache (downloaded on first run)
+.hf_cache/
+
+# macOS
+.DS_Store
+
+# Intermediate render artifact (README.pdf is committed)
+README.html
